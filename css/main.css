@@ -36,6 +36,7 @@ header h1{
 
 nav ul {
   padding: .5em .75em;
+  font-size: 1.125rem;
 }
 
 li {
@@ -45,7 +46,6 @@ li {
 nav a {
   text-decoration: none;
   color: #6c8fe0;
-  font-size: 1.125rem;
   font-weight: bold;
 }
 
