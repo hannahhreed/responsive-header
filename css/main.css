@@ -22,10 +22,15 @@ body {
 
 header {
   background-color: #18294f;
+  text-align: center;
 }
 
 h1 {
   color: #fff;
+}
+
+li {
+  color: #6c8fe0;
 }
 
 @media only screen and (min-width: 25em) {
