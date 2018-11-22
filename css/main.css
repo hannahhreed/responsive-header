@@ -10,6 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font-family: Ubuntu, sans-serif;
 }
 
 *, *::before, *::after {
@@ -22,16 +23,23 @@ body {
 
 header {
   background-color: #18294f;
-  text-align: center;
-  text-decoration: none;
 }
 
 h1 {
   color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
 }
 
 li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
   color: #6c8fe0;
+  font-size: 1.125rem;
 }
 
 @media only screen and (min-width: 25em) {
