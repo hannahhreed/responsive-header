@@ -65,7 +65,7 @@ a {
     width: 110%;
   }
 
-  nav {
+  ul {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
