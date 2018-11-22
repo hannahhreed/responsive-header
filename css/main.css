@@ -32,6 +32,10 @@ h1 {
   font-size: 2rem;
 }
 
+ul {
+  padding-left: 0;
+}
+
 li {
   list-style-type: none;
 }
