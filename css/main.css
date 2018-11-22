@@ -61,6 +61,23 @@ a:hover {
     width: 100%;
   }
 
+  ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  li:nth-child(1), li:nth-child(2) {
+    width: 50%;
+    display: block;
+  }
+
+  li:nth-child(3), li:nth-child(4) {
+    width: 50%;
+    display: block;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -68,13 +85,6 @@ a:hover {
   html {
     line-height: 1.4;
     width: 110%;
-  }
-
-  ul {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
   }
 
 }
