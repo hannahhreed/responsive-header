@@ -23,6 +23,7 @@ body {
 header {
   background-color: #18294f;
   text-align: center;
+  text-decoration: none;
 }
 
 h1 {
